@@ -1,0 +1,17 @@
+package practise2;
+
+public class swapping {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ int a, b, temp;
+ a = 4;
+ b = 3;
+ System.out.println("before swapping : a,b = "+a+" ," + + b);
+ temp = a;
+ a =b;
+ b = temp;
+ System.out.println("After swapping : a,b = "+a+" ,"  + + b);
+	}
+
+}
